@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Syborg Strength">
+  <rect x="4" y="4" width="56" height="56" rx="12" fill="#101210"/>
+  <circle cx="32" cy="32" r="18" fill="none" stroke="#54baff" stroke-width="2.8"/>
+  <polygon points="38,12 22,33 30,33 26,52 42,31 34,31" fill="#d8ff43"/>
+</svg>
