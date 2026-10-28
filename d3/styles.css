@@ -97,3 +97,13 @@ textarea{min-height:140px;resize:vertical}
   .section{padding-top:2rem;padding-bottom:2rem}
   .pdp .duo-grid{justify-items:center}
 }
+
+/* Product stage: keep black bottle readable on void pages */
+.media.stage{
+  background:
+    radial-gradient(ellipse 72% 62% at 50% 52%, rgba(62,183,255,.22), transparent 68%),
+    linear-gradient(180deg, #6a7588 0%, #4a5568 48%, #343e50 100%);
+  border:1px solid rgba(197,204,212,.22);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.06);
+}
+.media.stage > img{object-fit:contain !important}
