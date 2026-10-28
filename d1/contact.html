@@ -5,59 +5,57 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Contact | Syborg Salts</title>
 <meta name="description" content="Syborg Strength smelling salts. Multi-use bottle $24.99 and 50 ampules $44.99.">
-<link rel="icon" href="./../assets/favicons/d1-32.png" sizes="32x32">
-<link rel="apple-touch-icon" href="./../assets/favicons/d1-180.png">
+<link rel="icon" href="../assets/favicons/d1-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="../assets/favicons/d1-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./styles.css">
-<style>:root{--display:'Syne', sans-serif;--body:'Instrument Sans', system-ui, sans-serif;}</style>
+
 </head>
 <body>
 
 <header class="site-header">
   <div class="wrap nav">
     <a class="logo" href="./index.html">Syborg Salts</a>
-    <button class="mobile-toggle" type="button" data-nav aria-expanded="false" aria-label="Menu">☰</button>
+    <button class="mobile-toggle" type="button" data-nav aria-expanded="false" aria-label="Menu">Menu</button>
     <nav class="nav-links" data-nav-links><a href="./index.html">Home</a><a href="./bottle.html">Bottle</a><a href="./ampules.html">Ampules</a><a href="./faq.html">FAQ</a><a href="./contact.html" aria-current=page>Contact</a></nav>
     <a class="nav-cta" href="https://syborgsalts.com/" rel="noopener">Live store</a>
   </div>
 </header>
-
-<main class="wrap section">
-  <h2>Contact</h2>
-  <p class="lede">Reach Syborg Strength at the email listed on their store contact policy.</p>
+<main>
+<section class="wrap contact-grid">
   <div class="contact-block">
-    <div>
-      <p>Trade name: Syborg Strength</p>
-      <p style="margin-top:1rem"><a class="mail" href="mailto:fifabros150@gmail.com">fifabros150@gmail.com</a></p>
-      <p style="margin-top:1rem;color:var(--muted)">Or shop directly at <a href="https://syborgsalts.com/" rel="noopener">syborgsalts.com</a>.</p>
-    </div>
-    <form action="mailto:fifabros150@gmail.com" method="post" enctype="text/plain">
-      <label>Name<input name="name" required autocomplete="name"></label>
-      <label>Email<input type="email" name="email" required autocomplete="email"></label>
-      <label>Message<textarea name="message" required></textarea></label>
-      <button class="btn btn-primary" type="submit">Open email draft</button>
-    </form>
+    <h1 style="font-family:var(--display);font-size:clamp(2rem,4vw,2.8rem);margin-bottom:1rem">Contact</h1>
+    <p>Reach Syborg Strength at the email listed on their store contact policy.</p>
+    <p style="margin-top:1rem">Trade name: Syborg Strength</p>
+    <p style="margin-top:1rem"><a class="mail" href="mailto:fifabros150@gmail.com">fifabros150@gmail.com</a></p>
+    <p style="margin-top:1rem;color:var(--muted)">Or shop directly at <a href="https://syborgsalts.com/" rel="noopener">syborgsalts.com</a>.</p>
   </div>
-</main>
-
+  <form action="mailto:fifabros150@gmail.com" method="post" enctype="text/plain">
+    <label>Name<input name="name" required></label>
+    <label>Email<input type="email" name="email" required></label>
+    <label>Message<textarea name="message" required></textarea></label>
+    <button class="btn btn-primary" type="submit">Open email draft</button>
+  </form>
+</section></main>
 <footer class="site-footer">
-  <div class="wrap foot-grid">
+  <div class="wrap foot">
     <div>
       <div class="logo">Syborg Salts</div>
       <p>Syborg Strength. Smelling salts for hard training.</p>
       <p style="margin-top:.5rem"><a href="mailto:fifabros150@gmail.com">fifabros150@gmail.com</a></p>
     </div>
-    <nav>
-      <a href="./bottle.html">Bottle $24.99</a>
-      <a href="./ampules.html">Ampules $44.99</a>
+    <div class="foot-links">
+      <a href="./bottle.html">Bottle ($24.99)</a>
+      <a href="./ampules.html">Ampules ($44.99)</a>
       <a href="./faq.html">FAQ</a>
       <a href="./contact.html">Contact</a>
       <a href="https://syborgsalts.com/" rel="noopener">syborgsalts.com</a>
       <a href="https://syborgsalts.com/policies/refund-policy" rel="noopener">Refunds</a>
-    </nav>
+    </div>
   </div>
+  
 </footer>
 <script>
 (function(){
