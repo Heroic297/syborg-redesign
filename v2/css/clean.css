@@ -1,13 +1,28 @@
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+:focus-visible{outline:2px solid var(--teal);outline-offset:3px}
 .site-header{backdrop-filter:none;background:var(--mist)}
 .btn,.nav-cta{border-radius:6px}
 .btn:active{transform:none}
-.hero{padding-top:3.5rem;padding-bottom:2.5rem}
+.hero.solo{grid-template-columns:1fr;padding:3.5rem 1.25rem 1.5rem}
+.hero.solo .lead{max-width:52ch;margin-bottom:0}
 .hero h1{margin-top:0}
-.hero-media{background:var(--paper);box-shadow:none;border-radius:12px}
+.formats-section{padding-top:1rem}
 .card,.compare,.band img{border-radius:12px}
 .card:hover{box-shadow:none;border-color:var(--line)}
-.card-media{background:var(--mist)}
-.step .n{color:var(--teal)}
-.faq-more{margin:1rem 0 0}
-.faq-more a,.faq details p a{color:var(--teal);text-decoration:underline}
+.card-media{background:var(--mist);aspect-ratio:5/4}
+.price small{font-family:var(--font);font-size:.85rem;font-weight:500;color:var(--muted);margin-left:.35rem}
+.card-body p.specs{color:var(--slate);font-size:.85rem;font-weight:600;margin:0 0 .3rem;flex:0}
+.compare{margin-top:1.25rem}
+.compare th[scope=row]{background:var(--paper);color:var(--muted);font-family:var(--font);font-weight:500;font-size:.95rem;width:30%}
+.band{margin:0}
+.steps{margin:0 0 1.4rem;padding-left:1.3rem;color:rgba(216,223,225,.78)}
+.steps li{margin:.65rem 0;padding-left:.2rem}
+.steps li::marker{color:var(--cyan);font-weight:600}
+.steps strong{color:var(--paper);font-weight:600}
+.band .safety{color:var(--silver);background:rgba(32,208,236,.1);border-color:rgba(32,208,236,.35)}
+.section-head{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;max-width:none}
+.faq-more{color:var(--teal);text-decoration:underline;font-size:.92rem}
+.faq details p a{color:var(--teal);text-decoration:underline}
 .footer-tag{color:var(--muted);margin:.7rem 0 0;max-width:34ch}
+@media (max-width:520px){.card-body .actions .btn{flex:1 1 100%}.compare th,.compare td{padding:.75rem .7rem;font-size:.88rem}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
