@@ -1,6 +1,13 @@
-# Syborg Salts redesign previews
+# Syborg Salts — redesign concepts
 
-- **V1** (dark athletic): [index.html](./index.html)
-- **V2** (clean / product palette): [v2/index.html](./v2/index.html)
+Three from-scratch website concepts for [syborgsalts.com](https://syborgsalts.com/). **Not the live store.** Buy buttons link to the real Shopify products.
 
-Not the live store. Live: https://syborgsalts.com/
+| Direction | Path | Idea |
+|-----------|------|------|
+| Dark Performance | [`d1/`](d1/) | Cinematic black + cyan, lime CTAs |
+| Clean Premium | [`d2/`](d2/) | Bone `#f0f0ea` editorial |
+| Chrome Industrial | [`d3/`](d3/) | Metallic gradients + hard grid |
+
+Open [`index.html`](index.html) to compare all three.
+
+Contact used on the concepts: `fifabros150@gmail.com` (from the live store).
