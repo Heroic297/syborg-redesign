@@ -1,49 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Contact — Syborg Salts</title>
-<meta name="description" content="Email Syborg Salts."/>
-<meta name="theme-color" content="#0a0a0a"/>
-<meta property="og:title" content="Contact — Syborg Salts"/>
-<meta property="og:description" content="Email Syborg Salts."/>
-<meta property="og:type" content="website"/>
-<meta property="og:image" content="../assets/products/bottle-main.png"/>
-<meta name="twitter:card" content="summary_large_image"/>
-<link rel="icon" href="../assets/favicons/d1.ico" sizes="any"/>
-<link rel="icon" type="image/png" sizes="32x32" href="../assets/favicons/d1-32.png"/>
-<link rel="apple-touch-icon" href="../assets/favicons/d1-180.png"/>
-<link rel="stylesheet" href="styles.css"/>
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Syborg Salts</title>
+<meta name="description" content="Syborg Strength smelling salts. Multi-use bottle $24.99 and 50 ampules $44.99.">
+<link rel="icon" href="./../assets/favicons/d1-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="./../assets/favicons/d1-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css">
+<style>:root{--display:'Syne', sans-serif;--body:'Instrument Sans', system-ui, sans-serif;}</style>
 </head>
 <body>
-<div class="preview-banner" role="note">
-  <span>Concept redesign — not the live store</span>
-  <a href="../index.html">Compare all 3 designs</a>
-  <span class="pb-name">Dark Performance</span>
-</div>
-<div class="ann">Syborg smelling salts · Bottles &amp; single-use ampules</div>
-<header>
-  <div class="nav">
-    <a class="logo" href="index.html">Syborg Salts</a>
-    <nav class="nav-links"><a href="index.html">Home</a><a href="bottle.html">Bottle</a><a href="ampules.html">Ampules</a><a href="faq.html">FAQ</a><a href="contact.html" aria-current="page">Contact</a></nav>
-    <a class="nav-cta" href="https://syborgsalts.com/products/syborg-smelling-salts" rel="noopener" target="_blank">Shop live</a>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="logo" href="./index.html">Syborg Salts</a>
+    <button class="mobile-toggle" type="button" data-nav aria-expanded="false" aria-label="Menu">☰</button>
+    <nav class="nav-links" data-nav-links><a href="./index.html">Home</a><a href="./bottle.html">Bottle</a><a href="./ampules.html">Ampules</a><a href="./faq.html">FAQ</a><a href="./contact.html" aria-current=page>Contact</a></nav>
+    <a class="nav-cta" href="https://syborgsalts.com/" rel="noopener">Live store</a>
   </div>
 </header>
-<main class="section wrap">
-  <p class="eyebrow">Contact</p>
-  <h1 class="h1" style="font-size:clamp(2rem,4vw,3rem)">Talk to the team.</h1>
-  <div class="contact-card" style="margin-top:1.5rem">
-    <p style="color:var(--muted);margin-top:0">This concept page has no form backend. Reach them on the address from the live store:</p>
-    <a class="mail" href="mailto:fifabros150@gmail.com">fifabros150@gmail.com</a>
-    <p style="margin:1.25rem 0 0;color:var(--muted);font-size:.9rem">For orders, refunds (up to 30 days), or product questions, include your order number if you have one.</p>
+
+<main class="wrap section">
+  <h2>Contact</h2>
+  <p class="lede">Reach Syborg Strength at the email listed on their store contact policy.</p>
+  <div class="contact-block">
+    <div>
+      <p>Trade name: Syborg Strength</p>
+      <p style="margin-top:1rem"><a class="mail" href="mailto:fifabros150@gmail.com">fifabros150@gmail.com</a></p>
+      <p style="margin-top:1rem;color:var(--muted)">Or shop directly at <a href="https://syborgsalts.com/" rel="noopener">syborgsalts.com</a>.</p>
+    </div>
+    <form action="mailto:fifabros150@gmail.com" method="post" enctype="text/plain">
+      <label>Name<input name="name" required autocomplete="name"></label>
+      <label>Email<input type="email" name="email" required autocomplete="email"></label>
+      <label>Message<textarea name="message" required></textarea></label>
+      <button class="btn btn-primary" type="submit">Open email draft</button>
+    </form>
   </div>
 </main>
-<footer><div class="wrap foot-grid">
-  <div><strong style="color:var(--fg)">Syborg Salts</strong><br/>Concept redesign for review. Buy on the live store.</div>
-  <div><a href="bottle.html">Bottle</a> · <a href="ampules.html">Ampules</a> · <a href="faq.html">FAQ</a> · <a href="contact.html">Contact</a></div>
-  <div><a href="mailto:fifabros150@gmail.com">fifabros150@gmail.com</a></div>
-</div></footer>
+
+<footer class="site-footer">
+  <div class="wrap foot-grid">
+    <div>
+      <div class="logo">Syborg Salts</div>
+      <p>Syborg Strength. Smelling salts for hard training.</p>
+      <p style="margin-top:.5rem"><a href="mailto:fifabros150@gmail.com">fifabros150@gmail.com</a></p>
+    </div>
+    <nav>
+      <a href="./bottle.html">Bottle $24.99</a>
+      <a href="./ampules.html">Ampules $44.99</a>
+      <a href="./faq.html">FAQ</a>
+      <a href="./contact.html">Contact</a>
+      <a href="https://syborgsalts.com/" rel="noopener">syborgsalts.com</a>
+      <a href="https://syborgsalts.com/policies/refund-policy" rel="noopener">Refunds</a>
+    </nav>
+  </div>
+</footer>
+<script>
+(function(){
+  var btn=document.querySelector('[data-nav]');
+  var links=document.querySelector('[data-nav-links]');
+  if(btn&&links){btn.addEventListener('click',function(){links.classList.toggle('open');btn.setAttribute('aria-expanded',links.classList.contains('open'));});}
+})();
+</script>
 </body></html>

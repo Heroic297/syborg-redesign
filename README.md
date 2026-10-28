@@ -1,13 +1,15 @@
-# Syborg Salts — redesign concepts
+# Syborg redesign concepts
 
-Three from-scratch website concepts for [syborgsalts.com](https://syborgsalts.com/). **Not the live store.** Buy buttons link to the real Shopify products.
+Three from-scratch preview sites for [syborgsalts.com](https://syborgsalts.com/).
 
-| Direction | Path | Idea |
-|-----------|------|------|
-| Dark Performance | [`d1/`](d1/) | Cinematic black + cyan, lime CTAs |
-| Clean Premium | [`d2/`](d2/) | Bone `#f0f0ea` editorial |
-| Chrome Industrial | [`d3/`](d3/) | Metallic gradients + hard grid |
+Built with Anthropic frontend-design, Taste Skill, Impeccable, and UI/UX Pro Max anti-slop rules.
 
-Open [`index.html`](index.html) to compare all three.
+| Design | Idea |
+|--------|------|
+| [d1 Ampule](https://raw.githack.com/Heroic297/syborg-redesign/main/d1/index.html) | Clinical intensity. Sealed ampule as page unit. |
+| [d2 Platform](https://raw.githack.com/Heroic297/syborg-redesign/main/d2/index.html) | Meet-day editorial. Chalked platform as ground. |
+| [d3 Chrome](https://raw.githack.com/Heroic297/syborg-redesign/main/d3/index.html) | Extreme chrome-robot crop on void. |
 
-Contact used on the concepts: `fifabros150@gmail.com` (from the live store).
+[Picker](https://raw.githack.com/Heroic297/syborg-redesign/main/index.html)
+
+Concept previews only. Checkout stays on the live Shopify store. Real prices: bottle $24.99, 50 ampules $44.99.

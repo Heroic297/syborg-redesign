@@ -1,73 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Syborg Salts — 3 redesign concepts</title>
-<meta name="description" content="Three professional redesign concepts for Syborg Salts. Not the live store."/>
-<meta name="theme-color" content="#0a0a0a"/>
-<meta property="og:title" content="Syborg Salts — 3 redesign concepts"/>
-<meta property="og:description" content="Dark Performance, Clean Premium, and Chrome Industrial."/>
-<meta property="og:type" content="website"/>
-<meta property="og:image" content="assets/products/bottle-main.png"/>
-<link rel="icon" href="assets/favicons/d1.ico"/>
-<link rel="apple-touch-icon" href="assets/favicons/d1-180.png"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet"/>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Syborg redesigns picker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#0a0a0a;--fg:#f5f5f0;--muted:#9a9a92;--lime:#d4ff3a;--cyan:#00d4e8;--bone:#f0f0ea}
-*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--fg);min-height:100vh;-webkit-font-smoothing:antialiased}
-.banner{text-align:center;padding:.7rem 1rem;background:#111;border-bottom:1px solid rgba(255,255,255,.08);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
-.wrap{max-width:1100px;margin:0 auto;padding:3rem 1.25rem 4rem}
-h1{font-size:clamp(2rem,5vw,3.2rem);letter-spacing:-.04em;margin:0 0 .5rem}
-.sub{color:var(--muted);max-width:48ch;margin:0 0 2.5rem}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.1rem}
-.card{display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.1);border-radius:18px;overflow:hidden;background:#111114;transition:transform .2s,border-color .2s}
-.card:hover{transform:translateY(-3px);border-color:rgba(0,212,232,.45)}
-.swatch{height:140px;display:flex;align-items:end;padding:1rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;font-size:.85rem}
-.s1{background:linear-gradient(145deg,#0a0a0a,#123,#0a1a14);color:var(--lime)}
-.s2{background:linear-gradient(145deg,#f0f0ea,#fff,#d9f6f8);color:#0a0a0a}
-.s3{background:linear-gradient(145deg,#1a1a22,#2a2a35 40%,#0e2a30);color:#d7dde6}
-.body{padding:1.15rem 1.2rem 1.35rem;display:flex;flex-direction:column;gap:.55rem;flex:1}
-.body h2{margin:0;font-size:1.15rem}
-.body p{margin:0;color:var(--muted);font-size:.9rem;flex:1}
-.btn{display:inline-flex;align-self:start;margin-top:.4rem;padding:.7rem 1rem;border-radius:999px;background:var(--lime);color:#0a0a0a;font-weight:800;font-size:.78rem;letter-spacing:.04em;text-transform:uppercase;text-decoration:none}
-.note{margin-top:2.5rem;color:var(--muted);font-size:.85rem}
-.note a{color:var(--cyan)}
-@media(max-width:800px){.grid{grid-template-columns:1fr}}
+:root{--bg:#0a0a0b;--ink:#f2f2f0;--muted:#9a9a92;--line:#222}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'IBM Plex Sans',system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5;padding:clamp(1.5rem,5vw,3rem)}
+h1{font-size:clamp(1.8rem,4vw,2.6rem);letter-spacing:-.03em}
+.lede{margin:.75rem 0 2rem;color:var(--muted);max-width:52ch}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
+.card{display:grid;gap:.55rem;padding:1.35rem;border:1px solid var(--line);color:inherit;text-decoration:none;min-height:200px;align-content:start}
+.card:hover{border-color:#8ad4f0}
+.kicker{font-size:.75rem;color:#8ad4f0;font-weight:700;letter-spacing:.08em}
+h2{font-size:1.45rem}
+p{color:var(--muted);font-size:.95rem}
+.go{margin-top:auto;font-weight:700;font-size:.9rem}
+.note{margin-top:2rem;color:var(--muted);font-size:.85rem}
 </style>
 </head>
 <body>
-<div class="banner">Concept redesigns — not the live Syborg Salts store</div>
-<div class="wrap">
-  <h1>Syborg Salts redesigns</h1>
-  <p class="sub">Three from-scratch directions based on the live store’s product photography, chrome robot label, and lime / cyan palette. Buy buttons go to syborgsalts.com.</p>
-  <div class="grid">
+<h1>Syborg redesigns</h1>
+<p class="lede">Three from-scratch concepts built with Anthropic frontend-design, Taste Skill, Impeccable, and UI/UX Pro Max rules. Real products and prices from syborgsalts.com.</p>
+<div class="grid">
     <a class="card" href="d1/index.html">
-      <div class="swatch s1">01 · Dark Performance</div>
-      <div class="body">
-        <h2>Dark Performance</h2>
-        <p>Cinematic black-and-cyan, gym imagery, lime CTAs. Closest energy to the current brand photography.</p>
-        <span class="btn">Open design →</span>
-      </div>
+      <div class="kicker">D1</div>
+      <h2>Ampule</h2>
+      <p>Clinical intensity. The sealed ampule is the page unit.</p>
+      <span class="go">Open preview</span>
     </a>
     <a class="card" href="d2/index.html">
-      <div class="swatch s2">02 · Clean Premium</div>
-      <div class="body">
-        <h2>Clean Premium</h2>
-        <p>Bone #f0f0ea canvas, black type, cyan details. Airy and editorial.</p>
-        <span class="btn">Open design →</span>
-      </div>
+      <div class="kicker">D2</div>
+      <h2>Platform</h2>
+      <p>Meet-day editorial. The chalked platform is every ground.</p>
+      <span class="go">Open preview</span>
     </a>
     <a class="card" href="d3/index.html">
-      <div class="swatch s3">03 · Chrome Industrial</div>
-      <div class="body">
-        <h2>Chrome Industrial</h2>
-        <p>Metallic gradients, hard grid, condensed type inspired by the chrome robot label.</p>
-        <span class="btn">Open design →</span>
-      </div>
-    </a>
-  </div>
-  <p class="note">Live store: <a href="https://syborgsalts.com/" rel="noopener">syborgsalts.com</a> · Contact: <a href="mailto:fifabros150@gmail.com">fifabros150@gmail.com</a></p>
-</div>
-</body>
-</html>
+      <div class="kicker">D3</div>
+      <h2>Chrome</h2>
+      <p>Extreme robot crop. Copy rides the negative space.</p>
+      <span class="go">Open preview</span>
+    </a></div>
+<p class="note">Concept previews only. Checkout stays on the live Shopify store. No theme zip in this round.</p>
+</body></html>
