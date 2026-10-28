@@ -98,12 +98,16 @@ textarea{min-height:140px;resize:vertical}
   .pdp .duo-grid{justify-items:center}
 }
 
-/* Product stage: keep black bottle readable on void pages */
+
+/* Stage: CSS-only. Product photo is unmodified (no filter/blend). */
 .media.stage{
-  background:
-    radial-gradient(ellipse 72% 62% at 50% 52%, rgba(62,183,255,.22), transparent 68%),
-    linear-gradient(180deg, #6a7588 0%, #4a5568 48%, #343e50 100%);
-  border:1px solid rgba(197,204,212,.22);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.06);
+  background: #121820;
+  border: 1px solid rgba(197, 204, 212, .22);
+  box-shadow:
+    0 0 0 1px rgba(62, 183, 255, .16),
+    0 0 36px rgba(62, 183, 255, .18),
+    0 14px 36px rgba(0, 0, 0, .45);
 }
-.media.stage > img{object-fit:contain !important}
+.media.stage > img{
+  object-fit: contain !important;
+}
