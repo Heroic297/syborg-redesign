@@ -109,6 +109,7 @@ p{margin:0}
 }
 .hero .plate img{max-height:min(42vh,420px)}
 @media (max-width:859px){
+  .hero{padding-top:var(--s7)}
   .hero-copy{display:contents}
   .hero h1{order:1}
   .hero-stage{order:2}
@@ -126,7 +127,8 @@ p{margin:0}
 
 /* Trust */
 .trust{background:linear-gradient(180deg,var(--surface) 0%,#15161a 100%);border-block:1px solid rgba(119,116,110,.22)}
-.trust ul{list-style:none;margin:0;display:grid;gap:var(--s3) var(--s7);padding-block:var(--s5)}
+.trust .wrap{padding-block:var(--s5)}
+.trust ul{list-style:none;margin:0;padding:0;display:grid;gap:var(--s3) var(--s7)}
 .trust li{font-weight:600}.trust li span{display:block;color:var(--muted);font-weight:400;font-size:.92rem}
 @media (min-width:760px){.trust ul{grid-template-columns:1.4fr 1fr 1fr}}
 
