@@ -1,6 +1,6 @@
 # Syborg redesign concepts
 
-Three from-scratch preview sites for [syborgsalts.com](https://syborgsalts.com/).
+Four from-scratch preview sites for [syborgsalts.com](https://syborgsalts.com/).
 
 Built with Anthropic frontend-design, Taste Skill, Impeccable, and UI/UX Pro Max anti-slop rules.
 
@@ -9,6 +9,7 @@ Built with Anthropic frontend-design, Taste Skill, Impeccable, and UI/UX Pro Max
 | [d1 Ampule](https://raw.githack.com/Heroic297/syborg-redesign/main/d1/index.html) | Clinical intensity. Sealed ampule as page unit. |
 | [d2 Platform](https://raw.githack.com/Heroic297/syborg-redesign/main/d2/index.html) | Meet-day editorial. Chalked platform as ground. |
 | [d3 Chrome](https://raw.githack.com/Heroic297/syborg-redesign/main/d3/index.html) | Extreme chrome-robot crop on void. |
+| [d4 Hold](https://raw.githack.com/Heroic297/syborg-redesign/main/d4/index.html) | The 4–6 inch hold distance becomes the one accent mark. Graphite + sodium amber, Big Shoulders Display + Schibsted Grotesk. |
 
 [Picker](https://raw.githack.com/Heroic297/syborg-redesign/main/index.html)
 
