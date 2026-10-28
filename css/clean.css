@@ -1,0 +1,12 @@
+.preview-banner a{text-decoration:underline}
+.site-header{backdrop-filter:none;background:var(--bg)}
+.btn,.nav-cta{border-radius:4px}
+.hero{padding-top:3rem;padding-bottom:2rem}
+.hero h1{margin-top:0}
+.hero-media{background:var(--bg-card);border-radius:8px;min-height:0}
+.card,.step,.compare,.faq details,.band img,.burger{border-radius:8px}
+.band{background:var(--bg-elev)}
+.section-head{align-items:baseline}
+.faq-more{margin:1rem 0 0}
+.faq-more a,.faq p a{color:var(--lime);text-decoration:underline}
+.footer-tag{color:var(--muted);margin:.7rem 0 0}
